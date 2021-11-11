@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+
+/*For backgrounds*/
+body{
+    font-family: sans-serif;/*For how the font will look like*/
+    color: black;/*For text color*/
+    background-image: url(photo/foreset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*For images*/
+.container {
+    position: relative;
+    left: 10px;
+    width: 90px;
+    margin-right: 1px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+img{
+    position: relative;
+    left: 200px;
+    width: 650px;
+    height: auto;
+    margin-left: 100px;
+    border-radius: 40px;
+}
+
+.welcome{
+    color: hotpink;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*Down here are for buttons*/
+/*Also the first one are names which is created by class for example(.me,.acc,.photo,.fix) */
+.me{
+    background-color: transparent;
+    color: white;
+    border-radius: 9rem;
+    padding: 9px;
+    border: 3px solid #fcff33;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.photo{
+    background-color: transparent;
+    color: white;
+    border-radius: 9rem;
+    padding: 8px;
+    border: 3px solid #fcff33;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.acc{
+    background-color: transparent;
+    color: aqua;
+    border-radius: 9rem;
+    padding: 8px;
+    border: 3px solid #ff33e4;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.fix{
+    background-color: transparent;
+    color: aqua;
+    border-radius: 9rem;
+    padding: 8px;
+    border: 3px solid #ff33e4;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+/*For hover*/
+/*hover mean when you put your cursor to buttons it will change color*/
+.me:hover{
+    background-color: aqua;
+}
+.photo:hover{
+    background-color: aqua;
+}
+.acc:hover{
+    background-color: #20e3f5;
+}
+.fix:hover{
+    background-color: #20e3f5;
+}
+.div{
+    margin-left: 9rem;
+}
+.but1{
+    position: relative;
+    left: 100px;
+    font-size: 40px;
+    border-radius: 5px;
+}
+.but2{
+    position: relative;
+    left: 100px;
+    font-size: 40px;
+    border-radius: 5px;
+}

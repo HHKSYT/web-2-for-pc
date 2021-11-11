@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Yaldevi&display=swap');
+
+
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    font-family: 'Yaldevi', sans-serif;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+}

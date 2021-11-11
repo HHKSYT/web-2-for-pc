@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-image: url(photo/mountain.jpg);
+  }
+
+  .social-links {
+    margin-top: 200px; /*use any margin that u need*/
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    height: 75px;
+    width: 80px;
+    margin: 0 15px; /*as bigger margin as farther from each other will be social links*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(
+      255,
+      210,
+      253
+    ); /*use the same color that body background or any other matching color that u like*/
+    border-radius: 50%; /*50% make round shape,
+    u can use border-radius less than 50% to have oval shape*/
+    border: 1px solid rgba(214, 202, 214, 0.72);
+    box-shadow: 8px 8px 12px -2px rgb(187, 192, 196),
+      -5px -5px 9px -2px rgb(173, 177, 177);
+    transition: transform 1s; /*any transition number from 0.3s to 1s*/
+  }
+
+  a i {
+    font-size: 50px; /*any font-size from 20px to 40px will look good. I've used 50px just
+      for demonstration purpose*/
+    color: rgb(77, 113, 119);
+    transition: transform 1s; /*it's great to match a{transition: transform 1s;} with
+    i{transition: transform 1s;} it will be synchronized*/
+  }
+
+  a:hover {
+    box-shadow: inset 6px 6px 8px -2px rgb(168, 170, 172),
+      inset -6px -6px 8px -2px rgb(193, 211, 214),
+      0px 12px 10px -10px rgb(124, 146, 143);
+    border: 2px solid rgba(194, 171, 194, 0.3);
+    transform: translateY(3px);
+  }
+
+  a:hover i {
+    transform: scale(0.85);
+  }
+
+  #color:hover{
+    color: blue;
+    transition-duration: 1ms;
+  }
+
+  a:hover .fa-instagram {
+    transition-duration: 1ms;
+    color: #e4405f;
+  }
+
+  a:hover .fa-facebook {
+    transition-duration: 1ms;
+    color: #3b5999;
+  }
+/*background button*/
+.div {
+  position: relative;
+  left: 45%;
+  top: 100px;
+}
+.but1 {
+  font-size: 30px;
+  border-radius: 5px;
+}
+.but2 {
+  font-size: 30px;
+  border-radius: 5px;
+}

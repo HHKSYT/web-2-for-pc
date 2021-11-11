@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+}
+img{
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: auto;
+}
